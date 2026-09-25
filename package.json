@@ -5,10 +5,11 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "devStart" : "nodemon server.js",
+    "devStart": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "ejs": "^6.0.1",
     "express": "^5.2.1"
   },
